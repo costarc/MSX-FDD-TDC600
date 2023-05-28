@@ -9,7 +9,7 @@
     (date "2023-05-28")
     (rev "1.0")
     (company "RCC")
-    (comment 1 "Based on Skoti Design: https://github.com/konkotgit/MSX-DC-600")
+    (comment 1 "Based in the MSX DC-600 Desigh by Skoti: https://github.com/konkotgit/MSX-DC-600")
   )
 
   (lib_symbols
