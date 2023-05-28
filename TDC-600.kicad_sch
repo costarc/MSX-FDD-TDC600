@@ -3400,7 +3400,7 @@
     (uuid 170ecc87-1c9d-41f1-84c0-57d7f7bcd9a5)
     (property "Reference" "J6" (id 0) (at 199.644 25.273 0))
     (property "Value" "FDD Connector" (id 1) (at 200.025 27.686 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal" (id 2) (at 198.12 51.054 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical" (id 2) (at 198.12 51.054 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 198.12 51.054 0)
@@ -3449,7 +3449,7 @@
     (property "Value" "ROM_SWITCH" (id 1) (at 167.386 109.22 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" (id 2) (at 166.116 120.904 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (id 2) (at 166.116 120.904 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.116 120.904 0)
@@ -4375,10 +4375,10 @@
   (symbol (lib_id "Switch:SW_Push") (at 178.054 140.081 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ce6f7dd5-f181-425a-96c4-049847557d3a)
-    (property "Reference" "SW1" (id 0) (at 181.737 138.8109 90)
+    (property "Reference" "SW1" (id 0) (at 182.88 138.8109 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_Push" (id 1) (at 181.737 141.3509 90)
+    (property "Value" "RESET" (id 1) (at 182.88 141.3509 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" (id 2) (at 183.134 140.081 0)
@@ -4507,7 +4507,7 @@
   (symbol (lib_id "power:GNDREF") (at 66.04 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f82b494c-be8d-4f2a-a5d0-8b689b314ae2)
-    (property "Reference" "#PWR?" (id 0) (at 66.04 85.09 0)
+    (property "Reference" "#PWR0101" (id 0) (at 66.04 85.09 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 66.04 84.328 0)
@@ -4633,7 +4633,7 @@
       (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
     )
     (path "/f82b494c-be8d-4f2a-a5d0-8b689b314ae2"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/b16493d0-17e8-4588-8dc9-b6b9eb468398"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm")
@@ -4675,10 +4675,10 @@
       (reference "J5") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/170ecc87-1c9d-41f1-84c0-57d7f7bcd9a5"
-      (reference "J6") (unit 1) (value "FDD Connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal")
+      (reference "J6") (unit 1) (value "FDD Connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical")
     )
     (path "/1c52b236-3822-49fa-aef3-26d81bf9a744"
-      (reference "J7") (unit 1) (value "ROM_SWITCH") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal")
+      (reference "J7") (unit 1) (value "ROM_SWITCH") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/842d9f0d-7fa3-40b0-801b-9a2ab6d14708"
       (reference "R1") (unit 1) (value "1K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -4714,7 +4714,7 @@
       (reference "R11") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/ce6f7dd5-f181-425a-96c4-049847557d3a"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS")
+      (reference "SW1") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS")
     )
     (path "/0026b233-4b7a-445d-884f-ac187d60d3c9"
       (reference "U1") (unit 1) (value "AT28C256") (footprint "Package_DIP:DIP-28_W15.24mm")
